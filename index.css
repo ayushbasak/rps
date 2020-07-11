@@ -1,0 +1,105 @@
+@font-face{
+    font-family: product-sans;
+    src: url(font.woff);
+}
+html,body{
+    font-size: 20px;
+    font-family: product-sans;
+    margin:0;
+    background:#05dfd7;
+}
+/* Header Content */
+.header-container{
+    color:white;
+    font-size:20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #b3b7bf;
+}
+.headerButton{
+    background: #99d8d0;
+    color:white;
+    cursor: pointer;
+    border:none;
+    height:100%;
+    padding:20px;
+}
+.headerButton:hover{
+    background: white;
+    color:#99d8d0;
+}
+
+/* Main Content */
+.main-container{
+    display: inline-block;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+/* .main-top{
+    display: flex;
+    flex-direction: row;
+} */
+.choices button{
+    height:200px;
+    width:200px;
+    font-size:20px;
+    border:none;
+    background: #679b9b;
+    color:white;
+    cursor: pointer;
+    padding:40px;
+}
+.choices button:hover{
+    background: white;
+    color:#679b9b
+}
+
+/* Modal About Me Styling */
+.modal{
+    visibility: hidden;
+    position:fixed;
+    z-index:1;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.object{
+    width:20vw;
+    margin-top:10%;
+    background-color: white;
+    height:200px;
+    padding:20px;
+}
+.object div{
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.modal-head{
+    color:white;
+    margin: none;
+    padding:20px;
+    background:#505050;
+}
+.modal-01-text{
+    padding-left:10px;
+}
+.cross{
+    padding:0px 5px;
+    cursor: pointer;
+    text-align: right;
+    background: white;
+}
+.cross:hover{
+    background:black;
+    color:white
+}
